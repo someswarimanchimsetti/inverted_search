@@ -1,0 +1,4 @@
+*.o
+Slist
+a.out
+*.exe
