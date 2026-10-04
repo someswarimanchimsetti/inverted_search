@@ -67,6 +67,48 @@ Example:
 ```
 
 You can provide multiple input files according to the program's requirements.
+## Sample Output
+
+### Program Startup
+
+```text
+Successfully added file1.txt file into Linked List
+Successfully added file2.txt file into Linked List
+
+========================================
+          INVERTED SEARCH MENU
+========================================
+1. Create Database
+2. Display Database
+3. Update Database
+4. Search
+5. Save Database
+6. Exit
+========================================
+Enter your choice:
+```
+
+### Create Database
+
+```text
+Enter your choice: 1
+Database created successfully
+```
+
+### Search
+
+For example, searching for the word `hello`:
+
+```text
+Enter your choice: 4
+Enter the word to search: hello
+
+Word hello is present in 1 files
+In file file1.txt 2
+```
+
+This demonstrates that the inverted index can identify the files containing a searched word and the number of occurrences in each file.
+
 
 ## Sample Input Files
 
